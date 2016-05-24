@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## run this script in the directory where you would like the coverage files to appear
+
 numofargs=$#
 if [ $numofargs -eq 1 ]; then
         acc=$1
