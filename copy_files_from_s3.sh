@@ -6,12 +6,12 @@ if [ $numofargs -eq 1 ]; then
         if [[ ${#acc} == 14 ]]; then
 		echo "Searching for files"
         else
-                echo "Input should be full accession number with dashes, e.g. 18-CG-16-01234"
+                echo "Input should be full accession number with dashes, e.g. XX-XX-XX-XXXX"
 								echo $1
                 exit 1
         fi
 else
-        echo "Input should be full accession number with dashes, e.g. 18-CG-16-01234"
+        echo "Input should be full accession number with dashes, e.g. XX-XX-XX-XXXX"
         exit 1
 fi
 
